@@ -3,6 +3,7 @@ import Icon from './Icon/Icon'
 // React toastify
 import { ToastContainer, toast } from 'react-toastify'; 
 import 'react-toastify/dist/ReactToastify.css';
+import './App.css'
 
 
 const App = () => {
@@ -70,9 +71,26 @@ const fillTiktokArray = (index) => {
 // design of tik tok game
 
     return(
+         <div>
+        <div className='gameboard'>
+          <p>Tic Tac</p>
+          <input className='game1' type="text"/>
+          <input className='game2' type="text"/>
+          <input className='game3' type="text"/><br/>
+
+          <input className='game4' type="text"/>
+          <input className='game5' type="text"/>
+          <input className='game6' type="text"/><br/>
+          <input className='game7' type="text"/>
+          <input className='game8' type="text"/>
+          <input className='game9' type="text"/><br/>
+          <button>RESET</button>
           
-        // put some value in them  
-        // lets connect it with a button 
+          
+          
+        </div>
+        </div>   
+        
 
 
     )
